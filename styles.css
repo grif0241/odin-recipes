@@ -1,33 +1,55 @@
-/* global */
-* {
-  text-shadow: 1px 2px black;
+html {
+  box-sizing: border-box;
 }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+    background-color: darkslategrey;
 
-body {
-  padding: 0;
-  margin: 0;
-  background-color: orange;
-  color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-img {
-  width: 400px;
-  height: auto;
 }
 
 .container {
+  color: whitesmoke;
+  max-width: 40em;
+  background-color: darkslategrey;
+  /* border: 2px solid pink; */
+  margin: 0 auto;
+}
+
+.title {
+  /* background-color:blue; */
   text-align: center;
+  padding: 8px;
 }
 
 .nav-links {
-  font-weight: bold;
-  list-style: none;
+  /* background-color: darkkhaki; */
+  text-align: center;
+  padding: 8px;
 }
 
-.nav-links li a {
-  color:whitesmoke;
-  padding: 0;
-  margin: 0;
+.link {
+  display: inline-block;
+  color: lightsalmon;
+  margin: 10px 20px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+img {
+  width: 500px;
+  height:auto;
+  display: block;
+  /* background-color: blanchedalmond; */
+  border-radius: 20px 20px 0 0;
+  border-bottom: 20px double red;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.recipe-container {
+  border: 2px solid ghostwhite;
+  padding: 8px;
+  border-radius: 8px 10px;
 }
